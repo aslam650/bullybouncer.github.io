@@ -4,37 +4,141 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Privacy Policy - BullyBouncer</title>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <style>
+    /* Base Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Variables */
+    :root {
+      --primary-color: #2c3e50;
+      --secondary-color: #2980b9;
+      --bg-color: #ecf0f1;
+      --text-color: #34495e;
+      --container-bg: #ffffff;
+      --border-radius: 8px;
+      --spacing: 1.6rem;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: var(--spacing);
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: calc(var(--spacing) / 2) var(--spacing);
+      border-radius: var(--border-radius) var(--border-radius) 0 0;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: var(--container-bg);
+      border-radius: var(--border-radius);
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .content {
+      padding: var(--spacing);
+    }
+
+    .content p {
+      margin-bottom: var(--spacing);
+    }
+
+    .content h2 {
+      font-size: 1.5rem;
+      margin-top: var(--spacing);
+      margin-bottom: calc(var(--spacing) / 2);
+      color: var(--primary-color);
+    }
+
+    .content ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+      margin-bottom: var(--spacing);
+    }
+
+    .content ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .content a {
+      color: var(--secondary-color);
+      text-decoration: none;
+    }
+
+    .content a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: calc(var(--spacing) / 2) var(--spacing);
+      font-size: 0.9rem;
+      color: var(--text-color);
+      background-color: var(--bg-color);
+      margin-top: var(--spacing);
+    }
+  </style>
 </head>
-<body style="font-family:sans-serif; line-height:1.6; max-width:800px; margin:0 auto; padding:2rem;">
-  <h1>Privacy Policy</h1>
-  <p>Effective Date: April 11, 2025</p>
+<body>
+  <div class="container">
+    <header>
+      <h1>Privacy Policy</h1>
+      <p>Effective Date: April 11, 2025</p>
+    </header>
+    <div class="content">
+      <h2>1. Introduction</h2>
+      <p>BullyBouncer ("we", "our", "us") respects your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our mobile application.</p>
 
-  <h2>1. Introduction</h2>
-  <p>BullyBouncer ("we", "our", "us") respects your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our mobile application.</p>
+      <h2>2. Data We Collect</h2>
+      <ul>
+        <li>Personal identifiers (name, phone number, email)</li>
+        <li>Location data (for security alerts)</li>
+        <li>Audio recordings (during active rooms)</li>
+      </ul>
 
-  <h2>2. Data We Collect</h2>
-  <ul>
-    <li>Personal identifiers (name, phone number, email)</li>
-    <li>Location data (for security alerts)</li>
-    <li>Audio recordings (during active rooms)</li>
-  </ul>
+      <h2>3. How We Use Data</h2>
+      <p>We use collected data to enhance safety features, notify emergency contacts, and generate incident reports.</p>
 
-  <h2>3. How We Use Data</h2>
-  <p>We use collected data to enhance safety features, notify emergency contacts, and generate incident reports.</p>
+      <h2>4. Sharing and Storage</h2>
+      <p>We don’t share personal data with third parties unless required by law or for service provision (e.g., Firebase).</p>
 
-  <h2>4. Sharing and Storage</h2>
-  <p>We don’t share personal data with third parties unless required by law or for service provision (e.g., Firebase).</p>
+      <h2>5. Data Security</h2>
+      <p>Data is securely stored and encrypted both in transit and at rest using industry standards.</p>
 
-  <h2>5. Data Security</h2>
-  <p>Data is securely stored and encrypted both in transit and at rest using industry standards.</p>
+      <h2>6. Your Rights</h2>
+      <p>You can access, update, or delete your data. Contact us at <a href="mailto:support@bullybouncer.com">support@bullybouncer.com</a> for assistance.</p>
 
-  <h2>6. Your Rights</h2>
-  <p>You can access, update, or delete your data. Contact us at support@bullybouncer.com for assistance.</p>
+      <h2>7. Changes</h2>
+      <p>We may update this policy. Changes will be posted here with the revised date.</p>
 
-  <h2>7. Changes</h2>
-  <p>We may update this policy. Changes will be posted here with the revised date.</p>
-
-  <h2>8. Contact</h2>
-  <p>Email: support@bullybouncer.com<br/>Website: https://bullybouncer.com</p>
+      <h2>8. Contact</h2>
+      <p>Email: <a href="mailto:support@bullybouncer.com">support@bullybouncer.com</a><br>
+      Website: <a href="https://bullybouncer.com" target="_blank" rel="noopener">https://bullybouncer.com</a></p>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025 BullyBouncer. All rights reserved.
+  </footer>
 </body>
 </html>
