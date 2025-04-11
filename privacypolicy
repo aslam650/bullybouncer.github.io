@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy - BullyBouncer</title>
+</head>
+<body style="font-family:sans-serif; line-height:1.6; max-width:800px; margin:0 auto; padding:2rem;">
+  <h1>Privacy Policy</h1>
+  <p>Effective Date: April 11, 2025</p>
+
+  <h2>1. Introduction</h2>
+  <p>BullyBouncer ("we", "our", "us") respects your privacy. This Privacy Policy explains how we collect, use, and share information about you when you use our mobile application.</p>
+
+  <h2>2. Data We Collect</h2>
+  <ul>
+    <li>Personal identifiers (name, phone number, email)</li>
+    <li>Location data (for security alerts)</li>
+    <li>Audio recordings (during active rooms)</li>
+  </ul>
+
+  <h2>3. How We Use Data</h2>
+  <p>We use collected data to enhance safety features, notify emergency contacts, and generate incident reports.</p>
+
+  <h2>4. Sharing and Storage</h2>
+  <p>We don’t share personal data with third parties unless required by law or for service provision (e.g., Firebase).</p>
+
+  <h2>5. Data Security</h2>
+  <p>Data is securely stored and encrypted both in transit and at rest using industry standards.</p>
+
+  <h2>6. Your Rights</h2>
+  <p>You can access, update, or delete your data. Contact us at support@bullybouncer.com for assistance.</p>
+
+  <h2>7. Changes</h2>
+  <p>We may update this policy. Changes will be posted here with the revised date.</p>
+
+  <h2>8. Contact</h2>
+  <p>Email: support@bullybouncer.com<br/>Website: https://bullybouncer.com</p>
+</body>
+</html>
